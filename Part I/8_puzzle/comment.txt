@@ -1,0 +1,5 @@
+Solver의 Constructor에서 MinPQ<Node>를 구현하고, decideSolution()을 통해 Stack<Node> boardStack에 solution path를 저장함.
+그 이후, MinPQ<Node>는 block scope에 의해 garbage collect됨.
+이렇게 해서 메모리 테스트를 통과하게 됨.
+
+doTheWorks 부분의 nunu nana 이런 변수는 그냥 막 지었음
