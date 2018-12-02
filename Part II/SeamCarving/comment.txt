@@ -1,0 +1,6 @@
+1. EdgeWeightedDigraph를 안쓰고 배열 내 최단거리 구하는 알고리즘을 구하면 모든 Timing Test 통과 가능할 것(현재는 EdgeWeightedDigraph를 사용하는 것이 bottleneck이라 모든 테스트를 통과하지는 못함)
+
+2. 2차원 배열을 사용하도록 redesign 필요함 (거의 새로 짜야 하는 수준)
+
+...
+이것만 할 게 아니라 다른 것도 많이 해야 하니 대략적으로 했음.

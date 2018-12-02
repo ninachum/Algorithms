@@ -1,0 +1,4 @@
+1.
+이 WordNet 구현은test 6a-e (timing)에 의하면 엄청 최적화했을 때(레퍼런스)에 비해 1.66배 느림. 이는 wordNet에서의 ST를 HashSet으로 바꾸고, shortest ancestral path를 찾는 방식을 checklist page(코세라에 링크있음)에 optional optimization에 나온대로 하면 개선될 것으로 보임
+ST -> HashSet은 해볼만한 시도인데 귀찮아서 안함
+
